@@ -1,0 +1,181 @@
+body {
+    font-family: 'Hero', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0px;
+    display: flex;
+}
+
+li {
+    padding-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section-one {
+    background-color: #1F2937;
+    display: flex;
+    padding: 50px 150px 50px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-column {
+   
+}
+
+.bold-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.paragraph {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.main-cat {
+    flex: 1;
+    margin-left: 50px;
+}
+
+.button-one {
+    color:#F9FAF8;
+    font-size: 23px;
+    border: none;
+    border-radius: 5px;
+    background-color: #3882F6;
+    width: 125px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-two {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+
+.bold-text-two {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 7%;
+    justify-content: center;
+    
+}
+
+.cat-card,
+.text {
+    width: 150px;
+}
+
+.text {
+    text-align: center;
+    font-size: 14px;
+    color:#434649;
+}
+
+.cat-card {
+    height: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.section-three {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial {
+    font-size: 28px;
+    font-style: italic;
+    color: #1F2937;
+    width: 650px;
+    padding-bottom: 20px; 
+    position: relative;   
+    text-align: left;
+}
+
+.attribution {
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    position: absolute;
+    right: 0;
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    
+}
+
+.section-four {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    width: 750px;
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bold-text-three {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.button-two {
+    color: #F9FAF8;
+    font-weight: bold;
+    font-size: 20px;
+}
