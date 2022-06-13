@@ -4,6 +4,11 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    font-family: 'Fascinate', cursive;
+}
+
+.container {
+    flex: 1;
 }
 
 header {
@@ -46,6 +51,7 @@ a {
 }
 
 .text-column {
+    min-width: 450px;
    
 }
 
@@ -62,16 +68,20 @@ a {
     padding-top: 10px;
 }
 
+
 .main-cat {
-    flex: 1;
+    width: 100%; 
+    min-width: 400px;
     margin-left: 50px;
+    margin-right: auto;
 }
+    
 
 .button-one {
     color:#F9FAF8;
-    font-size: 23px;
+    font-size: 17px;
     border: none;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: #3882F6;
     width: 125px;
     height: 45px;
@@ -89,6 +99,7 @@ a {
 }
 
 .bold-text-two {
+    margin-top: 30px;
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -97,20 +108,22 @@ a {
 
 .cards {
     display: flex;
-    gap: 7%;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     
 }
 
 .cat-card,
 .text {
     width: 150px;
+    margin-left: 25px;
 }
 
 .text {
     text-align: center;
     font-size: 14px;
     color:#434649;
+    margin-bottom: 20px;
 }
 
 .cat-card {
@@ -118,6 +131,7 @@ a {
     border: 3px solid #3882F6;
     border-radius: 10px;
     object-fit: cover;
+
 }
 
 .section-three {
@@ -160,7 +174,7 @@ a {
 
 .action-box {
     width: 750px;
-    height: 150px;
+    height: 125px;
     background-color: #3882F6;
     border-radius: 5px;
     display: flex;
@@ -174,8 +188,35 @@ a {
     font-size: 20px;
 }
 
+.subtext {
+    font-size: 15px;
+    font-weight: normal;   
+}
+
 .button-two {
     color: #F9FAF8;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
+    border: 3px solid #F9FAF8;
+    border-radius: 7px;
+    background-color: #3882F6;
+    width: 125px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    height: 75px;
+}
+
+.copyright {
+    color: #F9FAF8;
+    font-size: 15px;
 }
